@@ -12,5 +12,3 @@ export async function load({ }) {
     const user = data.results[0];
     return user;
 }
-
-export const prerender = true;
