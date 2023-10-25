@@ -2,7 +2,7 @@ export const config = {
     runtime: 'nodejs18.x',
     isr: {
         expiration: 10
-    }
+    },
 }
 
 export async function load({ }) {
